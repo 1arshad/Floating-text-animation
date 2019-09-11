@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>I Am Awesome</title>
+</head>
+<style type="text/css">
+	*{
+		margin: 0;
+		padding: 0;
+	}
+	div{
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: #64b2cd;
+		flex-direction: column;
+		
+	}
+	h2{
+		font-size: 45px;
+		color: white;
+		padding-bottom: 20px;
+	}
+	h1{
+		font-size: 55px;
+		color: white;
+	}
+	.awm{
+		text-transform: uppercase;
+		text-shadow: 0 1px 0 #efefef,
+					 0 2px 0 #efefef,
+					 0 3px 0 #efefef,
+					 0 4px 0 #efefef,
+					 0 30px 4px rgba(0,0,0,.1);
+		animation: idharudhar 2s linear infinite;
+		animation-direction: alternate;	
+	}
+	@keyframes  idharudhar {
+		from{
+			transform: rotate(5deg);
+			}
+		to{
+			transform: rotate(-5deg);
+		}
+	}
+</style>
+<body>
+	<div>
+		<h2 class="awm">I &nbsp;am</h2> 
+		<h1 class="awm">Awesome.</h1>
+	</div>
+
+</body>
+</html>
